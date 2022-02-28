@@ -1,0 +1,239 @@
+.hero {
+  margin: 0 -13px;
+  text-align: left;
+  background-color: var(--branding-color);
+  padding: 100px 0 80px;
+  color: var(--heading-color);
+}
+.hero p {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 36px;
+}
+h1 {
+  font-family: var(--heading-font);
+  font-size: 80px;
+  font-weight: bold;
+}
+h3 {
+  font-family: var(--primary-font);
+  font-size: 30px;
+  text-align: center;
+}
+.hero h2 {
+  font-family: var(--primary-font);
+  font-weight: normal;
+}
+
+.luiza {
+  width: 400px;
+  height: auto;
+}
+.first-project {
+  text-align: left;
+  margin: auto;
+  color: var(--heading-color);
+}
+
+.first-project h2 {
+  font-family: var(--heading-font);
+  font-size: 50px;
+}
+
+.first-project h6 {
+  font-family: var(--primary-font);
+  font-size: 20px;
+  font-weight: normal;
+}
+.first-project p {
+  font-family: var(--primary-font);
+  color: var(--heading-color);
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.second-project {
+  text-align: right;
+  margin: 0;
+  color: var(--heading-color);
+}
+.second-project h2 {
+  font-family: var(--heading-font);
+  font-size: 50px;
+}
+
+.second-project h6 {
+  font-family: var(--primary-font);
+  font-size: 20px;
+  font-weight: normal;
+}
+.second-project p {
+  font-family: var(--primary-font);
+  color: var(--heading-color);
+  font-size: 16px;
+  font-weight: normal;
+}
+
+#btn-contact-me,
+#btn-contact-me-about {
+  background-color: var(--contact-btn-color);
+  color: var(--branding-color);
+  border-color: var(--contact-btn-color);
+  opacity: 85%;
+  font-size: 18px;
+  padding: 15px 30px;
+}
+#btn-weather-app,
+#btn-adopt-app {
+  background-color: fffff;
+  color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  font-size: 16px;
+  padding: 15px 20px;
+}
+
+#img-weather-app {
+  max-width: 80%;
+  height: auto;
+  margin: 8px 83px 28px;
+  border-radius: 4px;
+}
+
+#img-adopt-app {
+  max-width: 90%;
+  height: auto;
+  margin: -47px 0px 50px 48px;
+  border-radius: 4px;
+}
+
+#adopt-section {
+  padding: 0 105px 0 0;
+}
+:root {
+  --primary-font: "Poppins", sans-serif;
+  --heading-font: "Playfair Display", serif;
+  --branding-color: #f1e9e3;
+  --secondary-color: #e78775;
+  --heading-color: #312a2b;
+  --contact-btn-color: #92253f;
+}
+
+.about-section {
+  justify-content: space-evenly;
+  color: var(--heading-color);
+  padding-left: 100px;
+}
+
+.about-section h1 {
+  font-size: 50px;
+  padding-top: 150px;
+}
+.about-section h2 {
+  font-size: 22px;
+}
+.about-me-image {
+  max-width: 70%;
+  margin-left: 50px;
+  margin-top: 60px;
+}
+
+.header-section {
+  padding: 65px !important;
+  background-color: var(--branding-color);
+  max-width: 100%;
+}
+
+@media (max-width: 912px) {
+  .hero {
+    justify-content: center !important;
+    text-align: center !important;
+    padding: 40px 0 25px 0;
+  }
+  .luiza {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 0 10px 90px;
+  }
+  .hero p {
+    font-size: 20px;
+  }
+  .hero h1 {
+    font-size: 40px;
+    margin-top: -10px;
+  }
+  .hero h2,
+  .first-project h3 {
+    font-size: 20px;
+    margin-top: -10px;
+  }
+  #btn-contact-me,
+  #btn-contact-me-about {
+    margin-top: -45px;
+    font-size: 10px;
+    padding: 8px 15px;
+    text-align: center;
+    justify-content: center;
+  }
+  .first-project,
+  .second-project {
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: -18px;
+    flex: 1;
+  }
+
+  .first-project p,
+  .second-project p,
+  .about-section p {
+    justify-content: center;
+    font-size: 12px;
+  }
+
+  .first-project h2,
+  .second-project h2 {
+    font-size: 25px;
+    margin-top: -15px !important;
+  }
+  #adopt-section {
+    padding: 0 !important;
+  }
+  #btn-weather-app,
+  #btn-adopt-app {
+    font-size: 10px;
+    padding: 8px 15px;
+  }
+  .header-section {
+    padding: 50px !important;
+    background-color: var(--branding-color);
+    max-width: 100%;
+    text-align: center;
+    justify-content: space-evenly;
+  }
+  .header-section h3 {
+    font-size: 20px;
+  }
+  .about-section {
+    margin-top: 20px;
+    margin-left: -50px;
+    text-align: center;
+  }
+  .about-section h1 {
+    font-size: 23px;
+    padding: 0 !important;
+    margin-left: 29px;
+  }
+  .about-section h2 {
+    font-size: 14px;
+  }
+  #btn-contact-me-about {
+    display: block;
+    margin: -20px auto;
+    justify-content: center;
+    max-width: 50%;
+  }
+  .about-me-image {
+    max-width: 60%;
+    margin: 45px;
+  }
+}
